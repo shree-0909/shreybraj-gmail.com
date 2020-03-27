@@ -1,0 +1,475 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Language" content="en">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Analytics Dashboard - This is an example dashboard created using build-in elements and components.</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no" />
+    <meta name="description" content="This is an example dashboard created using build-in elements and components.">
+    <meta name="msapplication-tap-highlight" content="no">
+
+<link href="./main.css" rel="stylesheet"></head>
+<body>
+    <div class="app-container app-theme-white body-tabs-shadow fixed-sidebar fixed-header">
+        <div class="app-header header-shadow">
+            <div class="app-header__logo">
+                <div>
+                    <figure >
+                        <img src="logo.png" alt="Prateek Kaitha" title="PrateeK Kaistha" width="80%">
+                    </figure>
+
+                </div>
+                <div class="header__pane ml-auto">
+                    <div>
+                        <button type="button" class="hamburger close-sidebar-btn hamburger--elastic" data-class="closed-sidebar">
+                            <span class="hamburger-box">
+                                <span class="hamburger-inner"></span>
+                            </span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="app-header__mobile-menu">
+                <div>
+                    <button type="button" class="hamburger hamburger--elastic mobile-toggle-nav">
+                        <span class="hamburger-box">
+                            <span class="hamburger-inner"></span>
+                        </span>
+                    </button>
+                </div>
+            </div>
+            <div class="app-header__menu">
+                <span>
+                    <button type="button" class="btn-icon btn-icon-only btn btn-primary btn-sm mobile-toggle-header-nav">
+                        <span class="btn-icon-wrapper">
+                            <i class="fa fa-ellipsis-v fa-w-6"></i>
+                        </span>
+                    </button>
+                </span>
+            </div>    <div class="app-header__content">
+                <div class="app-header-left">
+                    <div class="search-wrapper">
+                        <div class="input-holder">
+                            <input type="text" class="search-input" placeholder="Type to search">
+                            <button class="search-icon"><span></span></button>
+                        </div>
+                        <button class="close"></button>
+                    </div>
+                    <ul class="header-menu nav">
+                        <li class="nav-item">
+                            <a href="javascript:void(0);" class="nav-link">
+                                <i class="nav-link-icon fa fa-database"> </i>
+                                Statistics
+                            </a>
+                        </li>
+                        <li class="btn-group nav-item">
+                            <a href="javascript:void(0);" class="nav-link">
+                                <i class="nav-link-icon fa fa-edit"></i>
+                                Projects
+                            </a>
+                        </li>
+                        <li class="dropdown nav-item">
+                            <a href="javascript:void(0);" class="nav-link">
+                                <i class="nav-link-icon fa fa-cog"></i>
+                                Settings
+                            </a>
+                        </li>
+                    </ul>        </div>
+                <div class="app-header-right">
+                    <div class="header-btn-lg pr-0">
+                        <div class="widget-content p-0">
+                            <div class="widget-content-wrapper">
+                                <div class="widget-content-left">
+                                    <div class="btn-group">
+                                        <a data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="p-0 btn">
+                                            <img width="42" class="rounded-circle" src="assets/images/avatars/1.jpg" alt="">
+                                        </a>
+
+                                    </div>
+                                </div>
+                                <div class="widget-content-left  ml-3 header-user-info">
+                                    <div class="widget-heading">
+                                        Prateek Kaistha
+                                    </div>
+                                    <div class="widget-subheading">
+                                        FOUNDER and CEO
+                                    </div>
+                                </div>
+                                <div class="widget-content-right header-user-info ml-3">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>        </div>
+            </div>
+        </div>
+
+         <div class="app-main">
+                <div class="app-sidebar sidebar-shadow">
+                    <div class="app-header__logo">
+                        <div class="logo-src"></div>
+                        <div class="header__pane ml-auto">
+                            <div>
+                                <button type="button" class="hamburger close-sidebar-btn hamburger--elastic" data-class="closed-sidebar">
+                                    <span class="hamburger-box">
+                                        <span class="hamburger-inner"></span>
+                                    </span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="app-header__mobile-menu">
+                        <div>
+                            <button type="button" class="hamburger hamburger--elastic mobile-toggle-nav">
+                                <span class="hamburger-box">
+                                    <span class="hamburger-inner"></span>
+                                </span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="app-header__menu">
+                        <span>
+                            <button type="button" class="btn-icon btn-icon-only btn btn-primary btn-sm mobile-toggle-header-nav">
+                                <span class="btn-icon-wrapper">
+                                    <i class="fa fa-ellipsis-v fa-w-6"></i>
+                                </span>
+                            </button>
+                        </span>
+                    </div>    <div class="scrollbar-sidebar">
+                        <div class="app-sidebar__inner">
+                            <ul class="vertical-nav-menu">
+                                <li class="app-sidebar__heading">Dashboards</li>
+                                <li>
+                                    <a href="index.html" class="mm-active">
+                                        <i class="metismenu-icon pe-7s-rocket"></i>
+                                        Home...
+                                    </a>
+                                </li>
+                                <li class="app-sidebar__heading">Paradigms</li>
+
+                                <li  >
+                                    <a href="Structural.html">
+                                            <i class="metismenu-icon pe-7s-gym">
+                                            </i>Structural
+                                        </a>
+                                </li>
+                                <li  >
+                                        <a href="Procedural.html">
+                                                <i class="metismenu-icon pe-7s-display2">
+                                                </i>Procedural
+                                            </a>
+                                    </li>
+                                    <li  >
+                                        <a href="Object.html">
+                                                <i class="metismenu-icon pe-7s-plugin">
+                                                </i>Object Oriented
+                                            </a>
+                                    </li>
+                                    <li  >
+                                        <a href="Event.html">
+                                                <i class="metismenu-icon pe-7s-next-2">
+                                                </i>Event Driven
+                                            </a>
+                                    </li>
+                                    <li  >
+                                        <a href="Declarative.html">
+                                                <i class="metismenu-icon pe-7s-album">
+                                                </i>Declarative
+                                            </a>
+                                    </li>
+                                    <li  >
+                                        <a href="Imperative.html">
+                                                <i class="metismenu-icon pe-7s-leaf">
+                                                </i>Imperative
+                                            </a>
+                                    </li>
+                                    <li  >
+                                        <a href="Parallel.html">
+                                                <i class="metismenu-icon pe-7s-switch">
+                                                </i>Parallel
+                                            </a>
+                                    </li>
+                                    <li  >
+                                        <a href="Concurrent.html">
+                                                <i class="metismenu-icon pe-7s-vector">
+                                                </i>Concurrent
+                                            </a>
+                                    </li>
+                                    <li  >
+                                        <a href="Functional.html">
+                                                <i class="metismenu-icon pe-7s-eyedropper">
+                                                </i>Functional
+                                            </a>
+                                    </li>
+                                    <li  >
+                                        <a href="Logic.html">
+                                                <i class="metismenu-icon pe-7s-diamond">
+                                                </i>Logic
+                                            </a>
+                                    </li>
+                                    <li  >
+                                        <a href="Dependent.html">
+                                                <i class="metismenu-icon pe-7s-bandaid">
+                                                </i>Dependent
+                                            </a>
+                                    </li>
+                                    <li  >
+                                        <a href="Network.html">
+                                                <i class="metismenu-icon pe-7s-bluetooth">
+                                                </i>Network
+                                            </a>
+                                    </li>
+                                    <li  >
+                                        <a href="Symbolic.html">
+                                                <i class="metismenu-icon pe-7s-magic-wand">
+                                                </i>Symbolic
+                                            </a>
+                                    </li>
+                                    <li  >
+                                        <a href="Automata.html">
+                                                <i class="metismenu-icon pe-7s-map-2">
+                                                </i>Automata
+                                            </a>
+                                    </li>
+                                    <li  >
+                                        <a href="Gui.html">
+                                                <i class="metismenu-icon pe-7s-paint">
+                                                </i>GUI
+                                            </a>
+                                    </li>
+                                <li class="app-sidebar__heading">Feedback</li>
+                                <li>
+                                    <a href="forms-controls.html">
+                                        <i class="metismenu-icon pe-7s-mouse">
+                                        </i>Give Feedback
+                                    </a>
+                                </li>
+
+                                <li class="app-sidebar__heading">Learn More</li>
+                                <li>
+                                    <a href="https://en.wikipedia.org/wiki/Wiki" target="_blank">
+                                        <i class="metismenu-icon pe-7s-graph2">
+                                        </i>
+                                        Wikipedia
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="app-main__outer">
+
+                        <div class="app-main__inner">
+                                <div class="app-page-title">
+                                    <div class="page-title-wrapper">
+                                        <div class="page-title-heading">
+                                            <div class="page-title-icon">
+                                                <i class="pe-7s-radio icon-gradient bg-strong-bliss">
+                                                </i>
+                                            </div>
+                                            <div>Object Oriented Programming Paradigms......
+                                                <div class="page-title-subheading">Learn about Object Oriented programming paradigm.
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>            <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="main-card mb-3 card">
+                                            <div class="card-body"><h5 class="card-title">Object Oriented Programming Approach </h5>
+                                                <div class="scroll-area-md">
+                                                    <div class="scrollbar-container ps--active-y">
+                                                        <p><strong>Object-oriented programming –</strong> As the name suggests uses objects in programming.
+                                                        Object-oriented programming aims to implement real-world entities like inheritance, hiding, polymorphism, etc in programming. The main aim of OOP is to bind together
+                                                        the data and the functions that operate on them so that no other part of the code can access this data except that function.</p>
+
+                                                        <p>
+                                                                <strong>Class:</strong> The building block of C++ that leads to Object-Oriented programming is a Class. It is a user-defined data type, which holds its own data members and member functions,
+                                                                 which can be accessed and used by creating an instance of that class. A class is like a blueprint for an object.
+                                                        </p>
+                                                        <p>
+                                                                <strong>For Example: </strong>Consider the Class of Cars. There may be many cars with different names and brand but all of them will share some common properties like all of them will have 4 wheels,
+                                                                Speed Limit, Mileage range etc. So here, Car is the class and wheels, speed limits, mileage are their properties.
+                                                        </p>
+                                                        <ul>
+                                                                <li>A Class is a user-defined data-type which has data members and member functions.</li>
+                                                                <li>Data members are the data variables and member functions are the functions used to manipulate these variables and together these data members and member functions define the properties and behaviour of the objects in a Class.</li>
+                                                                <li>In the above example of class Car, the data member will be speed limit, mileage etc and member functions can apply brakes, increase speed etc.</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="main-card mb-3 card">
+                                                <div class="card-body"><h5 class="card-title">Key Features of Object Oriented Programming </h5>
+                                                    <div class="scroll-area-md">
+                                                        <div class="scrollbar-container ps--active-y">
+                                                                <p><strong>Encapsulation: </strong>In normal terms, Encapsulation is defined as wrapping up of data and information under a single unit. In Object-Oriented Programming, 
+                                                                    Encapsulation is defined as binding together the data and the functions that manipulate them.</p>
+
+                                                               <p>
+                                                                    Consider a real-life example of encapsulation, in a company, there are different sections like the accounts section, finance section, sales section etc. 
+                                                                    The finance section handles all the financial transactions and keeps records of all the data related to finance. Similarly, the sales section 
+                                                                    handles all the sales-related activities and keeps records of all the sales. Now there may arise a situation when for some reason an official from 
+                                                                    the finance section needs all the data about sales in a particular month. In this case, he is not allowed to directly access the data of the sales 
+                                                                    section. He will first have to contact some other officer in the sales section and then request him to give the particular data. This is what 
+                                                                    encapsulation is. Here the data of the sales section and the employees that can manipulate them are wrapped under a single name “sales section”.
+                                                               </p>
+                                                               <p>
+                                                                    Encapsulation also leads to data abstraction or hiding. As using encapsulation also hides the data. In the above example, 
+                                                                    the data of any of the section like sales, finance or accounts are hidden from any other section.
+                                                               </p>
+                                                               <p>
+                                                                    <strong>Abstraction: </strong>Data abstraction is one of the most essential and important features of object-oriented programming in C++. 
+                                                                    Abstraction means displaying only essential information and hiding the details. Data abstraction refers to providing only essential information about the 
+                                                                    data to the outside world, hiding the background details or implementation.
+                                                               </p>
+                                                               <p>
+                                                                    Consider a real-life example of a man driving a car. The man only knows that pressing the accelerators will increase the speed of the car or
+                                                                     applying brakes will stop the car but he does not know about how on pressing accelerator the speed is actually increasing, he does not know 
+                                                                     about the inner mechanism of the car or the implementation of accelerator, brakes etc in the car. This is what abstraction is.
+                                                               </p>
+                                                               <ul>
+                                                                   <li>
+                                                                       <p>
+                                                                            <strong>Abstraction using Classes: </strong>We can implement Abstraction in C++ using classes. The class helps us to group data members and member functions using available access specifiers. 
+                                                                         </p>
+                                                                   </li>
+                                                                   <li>
+                                                                       <p>
+                                                                           <strong> Abstraction in Header files: </strong>One more type of abstraction in C++ can be header files. For example, consider the pow() method present in math.h header file. 
+                                                                            Whenever we need to calculate the power of a number, we simply call the function pow() present in the math.h header file and pass the numbers as arguments without knowing the underlying 
+                                                                            algorithm according to which the function is actually calculating the power of numbers.
+                                                                       </p>
+                                                                   </li>
+                                                               </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="main-card mb-3 card">
+                                            <div class="card-body"><h5 class="card-title">Polymorphism</h5>
+                                                <div class="scroll-area-sm">
+                                                    <div class="scrollbar-container ps--active-y">
+                                                         <p>
+                                                                Polymorphism: The word polymorphism means having many forms. In simple words, we can define polymorphism 
+                                                                as the ability of a message to be displayed in more than one form.
+                                                         </p>
+                                                         <p>
+                                                                A person at the same time can have different characteristic. Like a man at the same time is a father, 
+                                                                a husband, an employee. So the same person posses different behaviour in different situations. This is called polymorphism.
+                                                         </p>
+                                                         <p>
+                                                                An operation may exhibit different behaviours in different instances. The behaviour depends upon the types of data used in the operation.
+                                                         </p>
+                                                         <p>
+                                                                C++ supports operator overloading and function overloading.<br>
+                                                                <ul>
+                                                                    <li>
+                                                                            <em>Operator Overloading:</em> The process of making an operator to exhibit different behaviours in different instances is known as operator overloading.
+                                                                    </li>
+                                                                    <li>
+                                                                            <em>Function Overloading:</em> Function overloading is using a single function name to perform different types of tasks.
+                                                                            Polymorphism is extensively used in implementing inheritance.
+                                                                    </li>
+                                                                </ul>
+                                                         </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                        <div class="main-card mb-3 card">
+                                                <div class="card-body"><h5 class="card-title">Inheritance</h5>
+                                                    <div class="scroll-area-sm">
+                                                        <div class="scrollbar-container ps--active-y">
+                                                            <p>
+                                                                <strong>Inheritance:</strong> The capability of a class to derive properties and characteristics from another class is called Inheritance. 
+                                                                Inheritance is one of the most important features of Object-Oriented Programming.
+                                                            </p>
+                                                            <ul>
+                                                                <li>Sub Class: The class that inherits properties from another class is called Sub class or Derived Class.</li>
+                                                                <li>Super Class:The class whose properties are inherited by sub class is called Base Class or Super class.</li>
+                                                                <li>Reusability: Inheritance supports the concept of “reusability”, i.e. when we want to create a new class 
+                                                                    and there is already a class that includes some of the code that we want, we can derive our new class from 
+                                                                    the existing class. By doing this, we are reusing the fields and methods of the existing class.</li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        <div class="main-card mb-3 card">
+                                            <div class="card-header">
+                                                <i class="header-icon lnr-laptop-phone icon-gradient bg-plum-plate"> </i>
+                                                Source Links
+                                                <div class="btn-actions-pane-right actions-icon-btn">
+
+                                                </div>
+                                            </div>
+                                            <div class="card-body">
+                                                <div class="scroll-area-sm">
+                                                    <div class="scrollbar-container ps--active-y">
+                                                        <ul>
+                                                            <li>https://www.geeksforgeeks.org/structured-programming-approach-with-advantages-and-disadvantages/</li>
+                                                            <li>https://searchsoftwarequality.techtarget.com/definition/structured-programming-modular-programming</li>
+                                                            <li>link3</li>
+                                                            <li>link4</li>
+                                                            <li>link5</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                    <div class="app-wrapper-footer">
+                        <div class="app-footer">
+                            <div class="app-footer__inner">
+                                <div class="app-footer-left">
+                                    <ul class="nav">
+                                        <li class="nav-item">
+                                            <a href="https://www.google.com/search?q=Prateek+Kaistha&oq=Prateek+Kaistha&aqs=chrome..69i57j69i60j69i61.5707j0j7&sourceid=chrome&ie=UTF-8" target="_blank" class="nav-link">
+                                                Prateek Kaistha
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="javascript:void(0);" class="nav-link">
+                                                RA1811028010047
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="app-footer-right">
+                                    <ul class="nav">
+
+                                        <li class="nav-item">
+                                            <a href="javascript:void(0);" class="nav-link">
+                                                <div class="badge badge-success mr-1 ml-0">
+                                                    <small>GIT HUB</small>
+                                                </div>
+
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>    </div>
+
+        </div>
+    </div>
+<script type="text/javascript" src="./assets/scripts/main.js"></script></body>
+</html>
